@@ -1,0 +1,156 @@
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-tap-highlight-color: transparent;
+    margin: auto;
+    align-items: center;
+  }
+  #centralizar {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
+  .logo-tipo {
+    width: 40%;
+    margin: 1rem 0 0 1rem;
+  }
+  
+  .img-left {
+    display: block;
+    width: 80%;
+    margin: 5rem auto 3rem;
+  }
+  .text-right {
+    display: block;
+    text-align: center;
+    color: white;
+    margin: auto;
+  }
+  
+  .text-right h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: inherit;
+    margin: 4rem auto 1rem;
+    font-size: 2rem;
+  }
+  .text-right p {
+    margin: 0 auto 3rem;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.1rem;
+    width: 85%;
+  }
+  
+  .register-button {
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    padding: 1rem 5rem;
+    border-radius: 2rem;
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .logotipos {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1.4rem 0;
+    color: white;
+    font-size: 1.3rem;
+    box-sizing: border-box;
+  }
+  
+  .redes-sociais {
+    gap: 0.9rem;
+  }
+  
+  @media screen and (min-width: 992px) {
+    body {
+      display: table;
+      width: 100%;
+      height: 100vh;
+      background-image: url(../images/bg-desktop.svg);
+      background-repeat: no-repeat;
+      background-color: hsl(257, 40%, 49%);
+      overflow: hidden;
+    }
+  
+    .logo-tipo {
+      display: block;
+      width: 12%;
+      margin: 3.3rem 0 0 3.4rem;
+    }
+  
+    .img-left {
+      display: inline-block;
+      width: 40%;
+      margin: 3.8rem 0 0 3.4rem;
+    }
+    .text-right {
+      position: absolute;
+      display: inline-block;
+      width: 45%;
+      text-align: center;
+      color: white;
+      margin: 5rem 0 0 4rem;
+    }
+  
+    .text-right h1 {
+      text-align: left;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      color: inherit;
+      font-size: 2.5rem;
+      width: 75%;
+      margin: 1rem 0 0 0;
+    }
+    .text-right p {
+      font-family: "Open Sans", sans-serif;
+      font-size: 1.1rem;
+      width: 80%;
+      text-align: left;
+      margin: 1rem 0 0 0;
+    }
+  
+    .register-button {
+      display: block;
+      background-color: white;
+      color: hsl(257, 40%, 49%);
+      width: 30%;
+      margin: 1rem 0;
+      padding: 1rem 1rem;
+      border-radius: 2rem;
+      font-family: "Poppins", sans-serif;
+      -webkit-box-shadow: 9px 15px 43px 0px rgba(0, 0, 0, 0.53);
+      -moz-box-shadow: 9px 15px 43px 0px rgba(0, 0, 0, 0.53);
+      box-shadow: 9px 15px 43px 0px rgba(0, 0, 0, 0.53);
+      transition: 0.5s ease-in-out;
+    }
+  
+    .register-button:hover {
+      background-color: hsl(300, 69%, 71%);
+      color: white;
+    }
+  
+    .logotipos {
+      display: flex;
+      flex-direction: row;
+      justify-content: right;
+      margin: 0rem 10rem 0 2rem;
+      color: white;
+      font-size: 1.7rem;
+      box-sizing: border-box;
+    }
+    .redes-sociais {
+      gap: 1rem;
+    }
+    .link {
+      transition: 0.5s ease-in-out;
+    }
+    .logotipos .redes-sociais .link:hover {
+      color: hsl(300, 69%, 71%);
+    }
+  }
